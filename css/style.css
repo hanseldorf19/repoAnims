@@ -27,6 +27,8 @@ h1,h2,h3,h4 {
 h1	{
 
 	font-size: 2.5em;
+	transform: rotate(360deg);
+	transition: height 5s;
 }
 
 h2	{
@@ -139,11 +141,7 @@ nav ul li a{
 	margin: 0 0.5rem;
 }
 
-.slider	{
 
-	
-
-}
 
 .unete {
 
@@ -253,29 +251,48 @@ margin: 1em 0;
 
 }
 
-.buttonStyle {
+
+/*.buttonStyle {
 
 	color: white;
 	padding: 1rem 1rem;
 	margin: 1rem 1rem;
-	background-color: #91CC00;
+	background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
 	text-decoration: none;
 	border-radius: 1rem;
 	border: none;
 }
 
-button:hover {
+*/
+ button:hover{
 
 	transition-duration: 0.4s;
-	color: white;
-	padding: 1rem 1rem;
-	margin: 1rem 1rem;
-	background-color: #003658;
-	text-decoration: none;
-	border-radius: 1rem;
-	border: none;
+	cursor: pointer;
+
 }
 
+				
+        
+         
+         .btn-grad {background-image: linear-gradient(30deg, #003973 0%, #EAEDBA  51%, #003973  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            border:  none;
+          }
+
+          .btn-grad:hover {
+            background-position: center right; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
 
 form ul li {
 
@@ -411,3 +428,14 @@ footer ul li a {
 
 	
 }
+
+/*
+anims
+*/
+
+.scaleR:hover{
+	transform: scale(1.1) rotate(5deg);
+	cursor: pointer;
+	transition: transform 1s;
+}
+

@@ -7,8 +7,15 @@
 	<link rel="stylesheet" type="text/css" href="../css/style.css"> 
 	<link rel="stylesheet" type="text/css" href="../css/grid.css">
 	<link rel="stylesheet" type="text/css" href="../css/mobile-first.css">
+	<link rel="stylesheet" type="text/css" href="../css/animate.css">
+
 </head>
+
 <body>
+<script src="../js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 
 <div id="contenedor">
 	
@@ -69,11 +76,12 @@
 
 <!-- Imagen Silder -->
 
-<section id="slide">
+<section id="slider" class="wow bounceInRight">
 
-		<img src="../img/padel-pass-card-ofertas-descuentos-club-partidas-torneos-pala-ropa.jpg">
+			<img src="../img/padel-pass-card-ofertas-descuentos-club-partidas-torneos-pala-ropa.jpg" 
+			alt="Club con ventajas para jugadores de padel">
 
-</section>
+		</section>
 
 <!-- Contenido -->
 
@@ -89,7 +97,7 @@
 
 		<section class="centrar__Element">
 		
-			<h1 class="title__BigVSpace--center">
+			<h1 data-wow-iteration="3" data-wow-duration="0.15" class="wow animate__pulse title__BigVSpace--center" style="visibility: visible; animation-iteration-count: 3; animation-name: pulse;">
 
 			Únete al primer club de jugadores de padel tranversal</h1>
 
@@ -102,7 +110,7 @@
 			<article>
 
 				<img src="../img/mobile/ofertas-descuentos-padel-partidas-palas-ropa-mobile.jpg" 
-				alt="Ofertas y Descuentos de Padel para socios" class="roundCorner">
+				alt="Ofertas y Descuentos de Padel para socios" class="roundCorner scaleR">
 
 				<h3 class="title__SMVSpace--center">
 					
@@ -124,7 +132,7 @@
 			<article>
 
 				<img src="../img/mobile/clases-de-padel-onine-videos-tecnicas-aprende-padel-mobile.jpg" 
-				alt="Aprende padel online gratis y lleva el rendimiento y control de tus partidas" class="roundCorner">
+				alt="Aprende padel online gratis y lleva el rendimiento y control de tus partidas" class="roundCorner  scaleR">
 
 				<h3 class="title__SMVSpace--center">
 					
@@ -145,7 +153,7 @@
 			<article>
 
 				<img src="../img/mobile/partidas-padel-amigos-quedar-torneos-clases-actividades-deportes-mobile.jpg" 
-				alt="Apuntate a partidas y haz amigos" class="roundCorner">
+				alt="Apuntate a partidas y haz amigos" class="roundCorner scaleR">
 
 				<h3 class="title__SMVSpace--center">
 					
@@ -186,7 +194,7 @@
 			
 			<section class="img_tarjeta">
 				
-				<img src="../img/mobile/BRONCE-bronce-padel-pass-card-tarjeta-descuentos-partidas-compras-mobile.jpg" alt="Padel Pass Card Bronce">
+				<img class="scaleR" src="../img/mobile/BRONCE-bronce-padel-pass-card-tarjeta-descuentos-partidas-compras-mobile.jpg" alt="Padel Pass Card Bronce">
 
 			</section>
 
@@ -233,7 +241,7 @@
 			
 			<section class="img_tarjeta">
 				
-				<img src="../img/mobile/PLATA-SILVER--padel-pass-card-tarjeta-descuentos-partidas-compras-mobile.jpg" alt="Padel Pass Card Plata">
+				<img class="scaleR" src="../img/mobile/PLATA-SILVER--padel-pass-card-tarjeta-descuentos-partidas-compras-mobile.jpg" alt="Padel Pass Card Plata">
 
 			</section>
 
@@ -289,7 +297,7 @@
 			
 			<section class="img_tarjeta">
 				
-				<img src="../img/mobile/ORO-GOLD-padel-pass-card-tarjeta-descuentos-partidas-compras-mobile.jpg" alt="Padel Pass Card Oro">
+				<img class="scaleR" src="../img/mobile/ORO-GOLD-padel-pass-card-tarjeta-descuentos-partidas-compras-mobile.jpg" alt="Padel Pass Card Oro">
 
 			</section>
 
